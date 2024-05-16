@@ -1,0 +1,286 @@
+
+ /* -------------css Pallete---------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+button{
+    cursor: pointer;
+}
+#page1{
+    width: 100%;
+    height: 100%;
+}
+
+/* ------------------navbar-------------------- */
+nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 2vw 3vw;
+}
+#part1{
+ display: flex;
+ gap: 0.5vw;
+}
+#part1 i{
+    font-size: 1.6vw;
+  
+}
+#part1 h2{
+    font-size: 1.5vw;
+}
+#part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+}
+#part2 h2{
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+#part2 button{
+    padding: 1vw 1vw;
+    border-radius: 10px;
+}
+
+/* ---------sec1-------------- */
+
+#sec1{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+
+}
+/* ------left-------------- */
+.left{
+    width: 40%;
+    height: 100%;
+    padding: 3vw 3vw;
+}
+.left h3{
+    font-size: 4vw;
+    line-height:1;
+}
+.left p{
+    font-size: 1.5vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+.left button{
+    padding: 1vw 1vw;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    font-size: 1vw;
+}
+/* -------------right--------------- */
+.right{
+    width: 40%;
+    height: 100%;
+}
+.right img{
+    width: 100%;
+    height: 90%;
+    padding: 2vw 3vw;   
+}
+
+/* ----------sec2------- */
+#sec2{
+    width: 100%;
+    height: 100px;
+    padding: 1vw 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#sec2 img{
+    width: 10vw;
+}
+#sec2 .im1{
+    margin-top: 1.2vw;
+}
+/* --------------------sec3------------- */
+#sec3{
+    width: 100%;
+    height: 30%;
+    padding: 2vw 3vw;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+}
+#sec3 button{
+    padding: 1vw 1vw;
+    font-size: 1.5vw;
+    border-radius: 5px;
+    background-color: rgba(150, 255, 64, 0.973);
+    border: none;
+}
+#sec3 p{
+    width: 50%;
+    font-size: 1.5vw;
+}
+
+/* ------------sec4------------------------- */
+
+#sec4{
+    width: 100%;
+    padding: 2vw 3vw;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5vw;  
+}
+.elem{
+    width:30%;
+    height: 80%;
+    border-radius: 20px;
+    border: 10px solid black;
+}
+.elem img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ------------------sec5---------------------- */
+
+#sec5{
+    width: 80%;
+    height:40%;
+    background-color: rgb(196, 204, 204);
+    border-radius: 20px;
+    margin-left: 9vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#sec5 .part1 h3{
+    font-size: 3vw;
+    margin: 1vw 4vw;
+}
+#sec5 .part1 p{
+    font-size: 1.5vw;
+    margin: 1vw 4vw;
+}
+#sec5 .part1 button{
+    padding: 1vw 1vw;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    font-size: 1.4vw;
+    margin-left: 4vw;
+}
+
+#sec5 .part2{
+    width: 50%;
+    height: 80%;
+}
+#sec5 .part2 img{
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+/* ----------sec6---------------- */
+
+#sec6{
+    width: 100%;
+    height: 30%;
+    padding: 2vw 3vw;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+}
+#sec6 button{
+    padding: 1vw 1vw;
+    font-size: 2vw;
+    border-radius: 5px;
+    background-color: rgba(150, 255, 64, 0.973);
+    border: none;
+}
+#sec6 p{
+    width: 50%;
+    font-size: 1.5vw;
+}
+
+
+
+/* ----------sec7-------------------- */
+
+#sec7{
+    width: 90%;
+    height:40%;
+    background-color: rgb(196, 204, 204);
+    border-radius: 20px;
+    margin-left: 7vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#sec7 .part1{
+    width: 70%;
+    border-right: 1px solid black;
+}
+#sec7 .part1 p{
+    font-size: 1.8vw;
+    margin-left: 2vw;
+}
+#sec7 .part1 h3{
+    font-size: 1.5vw;
+    color: green;
+    margin-left: 2vw;
+    margin-top: 1vw;
+}
+#sec7 .part2{
+    width: 70%;
+    border-right: 1px solid black;
+}
+#sec7 .part2 p{
+    font-size: 1.8vw;
+    margin-left: 2vw;
+}
+#sec7 .part2 h3{
+    font-size: 1.5vw;
+    color: green;
+    margin-left: 2vw;
+    margin-top: 1vw;
+}
+#sec7 .part3{
+    width: 70%;
+    border-right: 1px solid black;
+}
+#sec7 .part3 p{
+    font-size: 1.8vw;
+    margin-left: 2vw;
+}
+#sec7 .part3 h3{
+    font-size: 1.5vw;
+    color: green;
+    margin-left: 2vw;
+    margin-top: 1vw;
+}
+#sec7 i, h3{
+    cursor: pointer;
+}
+
+
